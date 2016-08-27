@@ -1,7 +1,7 @@
 # SMF Nice Link mod
 * **Author:** digger http://mysmf.ru
 * **License:** The MIT License (MIT)
-* **Compatible with:** SMF 1.1, SMF 2.0
+* **Compatible with:** SMF 1.1, SMF 2.0, SMF 2.1 
 
 ## Description
 This mod makes active links underscored and highlighted.
