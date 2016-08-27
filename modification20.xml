@@ -17,7 +17,7 @@
 
 <modification xmlns="http://www.simplemachines.org/xml/modification" xmlns:smf="http://www.simplemachines.org/">
 	<id>digger:NiceLinks</id>
-	<version>1.1</version>
+	<version>1.1.1</version>
 
 	<file name="$themedir/css/index.css">
 
@@ -41,7 +41,7 @@
  	
 	<file name="$themes_dir/core/css/index.css">
 
-		<operation>
+		<operation error="ignore">
 
 			<search position="end" />
 
