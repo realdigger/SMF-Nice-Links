@@ -17,7 +17,7 @@
 
 <modification xmlns="http://www.simplemachines.org/xml/modification" xmlns:smf="http://www.simplemachines.org/">
 	<id>digger:NiceLinks</id>
-	<version>1.1</version>
+	<version>1.1.1</version>
 
 	<file name="$themedir/css/index.css">
 
@@ -28,14 +28,8 @@
 			<add><![CDATA[
 
 /* Nice Links */
-a:link.bbc_link, a:visited.bbc_link
-{
-	text-decoration: underline;
-}
-
 .bbc_link:hover
 {
-	text-decoration: underline;
 	background-color: #D0E4F6;
 }
 /* Nice Links */
@@ -47,21 +41,15 @@ a:link.bbc_link, a:visited.bbc_link
  	
 	<file name="$themes_dir/core/css/index.css">
 
-		<operation>
+		<operation error="ignore">
 
 			<search position="end" />
 
 			<add><![CDATA[
 
 /* Nice Links */
-a:link.bbc_link, a:visited.bbc_link
-{
-	text-decoration: underline;
-}
-
 .bbc_link:hover
 {
-	text-decoration: underline;
 	background-color: #D0E4F6;
 }
 /* Nice Links */

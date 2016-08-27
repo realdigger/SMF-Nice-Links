@@ -24,11 +24,11 @@
   </uninstall>
 
   <install for="2.0 - 2.1.99">
-    <modification>modification20.xml</modification>
+    <modification>modification2.xml</modification>
   </install>
 
   <uninstall for="2.0 - 2.1.99">
-    <modification reverse="true">modification20.xml</modification>
+    <modification reverse="true">modification2.xml</modification>
   </uninstall>
 
 </package-info>
