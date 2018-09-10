@@ -32,6 +32,16 @@
 {
 	background-color: #D0E4F6;
 }
+
+a.bbc_link
+{
+    display: inline-block;
+    white-space: pre;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: bottom;
+	max-width: 95%;
+}
 /* Nice Links */
 ]]></add>
 					
@@ -51,6 +61,16 @@
 .bbc_link:hover
 {
 	background-color: #D0E4F6;
+}
+
+a.bbc_link
+{
+    display: inline-block;
+    white-space: pre;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: bottom;
+	max-width: 95%;
 }
 /* Nice Links */
 ]]></add>
